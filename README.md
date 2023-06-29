@@ -11,16 +11,9 @@ Very lightweight service to create/vote on polls.
 - Docker Compose
 - Github Actions
 
-## Dev
-
+### Deploy with Docker
 ```
-docker-compose -f docker-compose.dev.yml up -d --build
-```
-
-## Prod
-
-```
-docker-compose -f docker-compose.prod.yml up -d --build
+docker-compose up -d --build
 ```
 
 ## Benchmarks
